@@ -17,7 +17,7 @@ int main() {
     int size = sizeof(array) / sizeof(array[0]); 
     
     int totalNegative = countNegativeNumbers(array, size);
-    cout << "Total number of negative numbers: " << totalNegative << std::endl;
+    cout << "Total number of negative numbers: " << totalNegative <<endl;
 
     return 0;
 }
